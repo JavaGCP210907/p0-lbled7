@@ -1,7 +1,6 @@
 package com.revature.util;
 
 import java.sql.Connection;
-import java.sql.Driver;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
@@ -17,9 +16,13 @@ public class ConnectionUtil {
 			e.printStackTrace();
 		}
 		
-		String url = "jdbc:postgresql://localhost:5432]/postgres?currentSchema=bank";
-		String username = "postgres";
-		String password = "password";
+		//change to hide credentials in the environment variables
+		String url = System.getenv("URL");
+		String username = System.getenv("USERNAME");
+		String password = System.getenv("PASSWORD");
+		//Run -> Run Configurations -> Environment Variables -> Then create key/value pairs
+		
+		
 		
 		return DriverManager.getConnection(url,username,password);
 	}
