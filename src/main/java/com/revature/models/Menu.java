@@ -1,14 +1,20 @@
 package com.revature.models;
 
+import java.util.List;
 import java.util.Scanner;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.revature.dao.CreditCardDao;
+import com.revature.dao.CustomerDao;
+
 
 
 public class Menu {
 		
+	CreditCardDao ccDao = new CreditCardDao();
+	CustomerDao cDao = new CustomerDao(); 
 	
 	
 	public void displayMenu() {
@@ -46,9 +52,12 @@ public class Menu {
 			switch(input) {
 			
 			case 1:{
-				List<Customer> = 
+				List<Customer> customerList = cDao.getCustomers();
 			}
 			
+			case 2:{
+				List<Customer> customerList = cDao.getCustomerById();
+			}
 			
 			
 			
