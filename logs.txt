@@ -1,0 +1,8 @@
+2021-09-20 12:39:28 INFO  Menu:35 - Initial menu activated
+2021-09-20 12:41:48 INFO  Menu:35 - Initial menu activated
+2021-09-20 12:43:37 INFO  Menu:35 - Initial menu activated
+2021-09-20 12:43:42 INFO  Menu:35 - Initial menu activated
+2021-09-20 12:45:05 INFO  Menu:35 - Initial menu activated
+2021-09-20 12:45:16 INFO  Menu:35 - Initial menu activated
+2021-09-20 12:48:07 INFO  Menu:35 - Initial menu activated
+2021-09-20 12:48:11 INFO  Menu:35 - Initial menu activated

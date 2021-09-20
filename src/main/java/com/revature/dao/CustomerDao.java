@@ -29,11 +29,11 @@ public class CustomerDao implements CustomerDaoInterface {
 			while (rs.next()) {
 				
 				Customer c = new Customer();
-				c.setCustomer_id(rs.getInt(0));
-				c.setF_name(rs.getString(1));
-				c.setL_name(rs.getString(2));
-				c.setDebit_balance(rs.getDouble(3));
-				c.setCard_id(rs.getInt(4));
+				c.setCustomer_id(rs.getInt(1));
+				c.setF_name(rs.getString(2));
+				c.setL_name(rs.getString(3));
+				c.setDebit_balance(rs.getDouble(4));
+				c.setCard_id(rs.getInt(5));
 				
 				customerList.add(c);
 			}
@@ -50,7 +50,28 @@ public class CustomerDao implements CustomerDaoInterface {
 
 	@Override
 	public int addCustomer(Customer customer) {
-		// TODO Auto-generated method stub
+		
+		try(Connection conn = ConnectionUtil.getConnection()){
+			
+			String sql = "insert into customers (f_name,l_name,debit_balance,card_id)"
+					+ "values (?,?,?,?)";
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, customer.getF_name());
+			ps.setString(2, customer.getL_name());
+			ps.setDouble(3, customer.getDebit_balance());
+			ps.setInt(4,customer.getCard_id());
+			
+			ps.executeUpdate();
+			
+			System.out.println("Customer" + customer.getF_name()+ "created");
+			
+			
+		}
+		catch(SQLException e) {
+			e.printStackTrace();
+		}
+		
+		
 		return 0;
 	}
 
@@ -69,11 +90,11 @@ public class CustomerDao implements CustomerDaoInterface {
 			List<Customer> customerList = new ArrayList<>();
 			while(rs.next()) {
 				Customer c = new Customer(
-						rs.getInt(0),
-						rs.getString(1),
+						rs.getInt(1),
 						rs.getString(2),
-						rs.getDouble(3),
-						rs.getInt(4)
+						rs.getString(3),
+						rs.getDouble(4),
+						rs.getInt(5)
 						);
 				
 				customerList.add(c);

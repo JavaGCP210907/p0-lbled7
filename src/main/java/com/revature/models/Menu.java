@@ -35,7 +35,7 @@ public class Menu {
 			log.info("Initial menu activated");
 			
 			System.out.println("~~~~~~~~~~~~~~~~~");
-			System.out.println("Choose an option number 1-6");
+			System.out.println("Choose an option number 1-7, 0 to close");
 			System.out.println("~~~~~~~~~~~~~~~~~");
 			
 			System.out.println("1 - View all customers");
@@ -48,15 +48,43 @@ public class Menu {
 			
 		
 			int input  = scan.nextInt();
+			scan.nextLine();
+			
 			
 			switch(input) {
-			
+			case 0:{
+				
+				displayMenu = false;
+				System.exit(0);
+			}
 			case 1:{
 				List<Customer> customerList = cDao.getCustomers();
+				System.out.println("----CUSTOMER LIST---");
+				customerList.stream().forEach(System.out::println);
+				break;
 			}
 			
 			case 2:{
-				List<Customer> customerList = cDao.getCustomerById();
+				System.out.println("Enter customer id: ");
+				int id = scan.nextInt();
+				List<Customer> customerList = cDao.getCustomerById(id);
+				customerList.stream().forEach(System.out::println);
+				break;
+			}
+			case 3:{
+				List<CreditCard> cardList = ccDao.getCreditCards();
+				cardList.stream().forEach(System.out::println);
+				
+				
+			}
+			case 4:{
+				
+				
+				
+			}
+			case 5:{
+				
+				
 			}
 			
 			
@@ -65,7 +93,7 @@ public class Menu {
 			
 			
 			
-			
+			}
 			
 			}
 			//Use warn after deleting an employee
@@ -87,4 +115,4 @@ public class Menu {
 			
 		}
 	}
-}
+
