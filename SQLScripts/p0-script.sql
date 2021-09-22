@@ -29,7 +29,7 @@
  SELECT * FROM customers;
  
 SELECT * FROM customers INNER JOIN credit_cards ON customers.card_id = credit_cards.card_id WHERE card_name = 'Travel';
-
+DELETE FROM TABLE customers WHERE customer_id>3;
 TRUNCATE TABLE customers;
 SELECT * FROM customers;
 DELETE FROM customers WHERE customer_id=5;

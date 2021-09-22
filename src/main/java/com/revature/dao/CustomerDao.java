@@ -131,8 +131,6 @@ public class CustomerDao implements CustomerDaoInterface {
 						rs.getInt(5));
 				customerList.add(c);
 			}
-			if(customerList.isEmpty())
-				System.out.println("No customers found!");
 			
 			return customerList;
 		}

@@ -21,3 +21,38 @@
 2021-09-22 13:56:41 INFO  Menu:36 - Initial menu activated
 2021-09-22 13:58:01 INFO  Menu:36 - Initial menu activated
 2021-09-22 13:58:15 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:00:00 INFO  Menu:86 - List returned
+2021-09-22 14:00:00 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:00:32 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:00:59 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:01:04 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:05:19 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:05:22 WARN  Menu:101 - Not a valid card choice!
+2021-09-22 14:05:22 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:06:06 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:06:12 WARN  Menu:101 - Not a valid card choice!
+2021-09-22 14:06:12 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:06:20 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:06:29 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:07:04 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:07:20 INFO  Menu:127 - Customer added
+2021-09-22 14:07:20 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:08:04 INFO  Menu:68 - List returning..
+2021-09-22 14:08:04 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:17:47 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:18:22 INFO  Menu:67 - List returning..
+2021-09-22 14:18:22 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:19:13 INFO  Menu:76 - List returning..
+2021-09-22 14:19:13 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:19:26 INFO  Menu:85 - List returned
+2021-09-22 14:19:26 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:20:14 INFO  Menu:126 - Customer added
+2021-09-22 14:20:14 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:20:26 INFO  Menu:67 - List returning..
+2021-09-22 14:20:26 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:24:03 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:24:05 INFO  Menu:67 - List returning..
+2021-09-22 14:24:05 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:26:36 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:26:40 INFO  Menu:67 - List returning..
+2021-09-22 14:26:40 INFO  Menu:36 - Initial menu activated

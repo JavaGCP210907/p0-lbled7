@@ -38,7 +38,6 @@ public class Menu {
 			System.out.println("~~~~~~~~~~~~~~~~~");
 			System.out.println("Choose an option number 1-7, 0 to close");
 			System.out.println("~~~~~~~~~~~~~~~~~");
-			
 			System.out.println("1 - View all customers");
 			System.out.println("2 - View customer by id");
 			System.out.println("3 - View credit cards");
@@ -96,8 +95,12 @@ public class Menu {
 				System.out.println("Enter a card: Basic, Premier, Travel or Platinum");
 				String card = scan.nextLine();
 				String transformed = card.substring(0,1).toUpperCase()+card.substring(1);
+				List<String> validEntries = List.of("Basic","Premier","Travel","Platinum");
+				if(!validEntries.contains(transformed)) {
+					log.warn("Not a valid card choice!");
+				}
 				try {
-				List<Customer> customerList = cDao.getCustomerByCard(card);
+				List<Customer> customerList = cDao.getCustomerByCard(transformed);
 				customerList.stream().forEach(System.out::println);
 				}
 				catch(NullPointerException e) {
@@ -109,7 +112,6 @@ public class Menu {
 			}
 			case 5:{
 				System.out.println("ADDING A CUSTOMER");
-				System.out.println("__________________");
 				
 				System.out.println("Enter First Name: ");
 				String f_name = scan.nextLine();
@@ -122,13 +124,12 @@ public class Menu {
 				int card_id = scan.nextInt();
 				cDao.addCustomer(f_name, l_name, debit_balance, card_id);
 				log.info("Customer added");
-				System.out.println("Customer successfully added with id = ");
 				break;
 				
 			}
 			case 6:{
 				System.out.println("DELETING A CUSTOMER");
-				System.out.println("____________________");
+				
 				System.out.println("Enter id to delete: ");
 				int id = scan.nextInt();
 				scan.nextLine();
