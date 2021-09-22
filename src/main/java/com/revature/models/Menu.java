@@ -117,7 +117,7 @@ public class Menu {
 				String l_name = scan.nextLine();
 				System.out.println("Enter debit balance: ");
 				double debit_balance = scan.nextDouble();
-				System.out.println("Enter credit card id: ");
+				System.out.println("Enter credit card id: Basic(1), Premier(2), Travel(3) or Platinum(4)");
 				scan.nextLine();
 				int card_id = scan.nextInt();
 				cDao.addCustomer(f_name, l_name, debit_balance, card_id);
