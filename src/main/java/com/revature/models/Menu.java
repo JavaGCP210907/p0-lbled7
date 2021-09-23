@@ -143,10 +143,23 @@ public class Menu {
 				System.out.println("UPDATING CARD LIMIT");
 				System.out.println("Enter Card to edit: ");
 				String card = scan.nextLine();
+				String transformed = card.substring(0,1).toUpperCase()+card.substring(1);
+				List<String> validEntries = List.of("Basic","Premier","Travel","Platinum");
+				if(!validEntries.contains(transformed)) {
+					System.out.println("Not a valid card choice! Please try again");
+					break;
+				}
+				
 				System.out.println("Enter new limit: ");
+				try{
 				int limit = scan.nextInt();
 				ccDao.updateLimit(card, limit);
-				log.info("Card updated");
+				log.info("Card updated");}
+				catch(InputMismatchException e) {
+					System.out.println("Sorry, please enter a number");
+				}
+				
+				
 				break;
 				
 			}
@@ -159,7 +172,7 @@ public class Menu {
 			}
 			
 			}
-			//Use warn after deleting an employee
+			
 			 
 			
 			

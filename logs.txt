@@ -56,3 +56,93 @@
 2021-09-22 14:26:36 INFO  Menu:36 - Initial menu activated
 2021-09-22 14:26:40 INFO  Menu:67 - List returning..
 2021-09-22 14:26:40 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:30:14 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:30:18 INFO  Menu:67 - List returning..
+2021-09-22 14:30:18 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:36:21 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:36:51 INFO  Menu:67 - List returning..
+2021-09-22 14:36:51 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:37:15 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:37:33 INFO  Menu:126 - Customer added
+2021-09-22 14:37:33 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:37:50 INFO  Menu:85 - List returned
+2021-09-22 14:37:50 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:38:15 INFO  Menu:149 - Card updated
+2021-09-22 14:38:15 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:38:30 INFO  Menu:85 - List returned
+2021-09-22 14:38:30 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:38:43 WARN  Menu:138 - Customer deleted from database
+2021-09-22 14:38:43 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:38:52 INFO  Menu:76 - List returning..
+2021-09-22 14:38:52 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:38:57 INFO  Menu:67 - List returning..
+2021-09-22 14:38:57 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:42:00 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:45:15 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:45:43 INFO  Menu:67 - List returning..
+2021-09-22 14:45:43 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:45:59 INFO  Menu:76 - List returning..
+2021-09-22 14:45:59 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:46:30 INFO  Menu:126 - Customer added
+2021-09-22 14:46:30 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:46:39 INFO  Menu:67 - List returning..
+2021-09-22 14:46:39 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:47:07 INFO  Menu:149 - Card updated
+2021-09-22 14:47:07 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:47:13 INFO  Menu:85 - List returned
+2021-09-22 14:47:13 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:47:30 WARN  Menu:138 - Customer deleted from database
+2021-09-22 14:47:30 INFO  Menu:36 - Initial menu activated
+2021-09-22 14:47:45 INFO  Menu:67 - List returning..
+2021-09-22 14:47:45 INFO  Menu:36 - Initial menu activated
+2021-09-22 19:05:25 INFO  Menu:36 - Initial menu activated
+2021-09-22 19:05:29 INFO  Menu:67 - List returning..
+2021-09-22 19:05:29 INFO  Menu:36 - Initial menu activated
+2021-09-22 19:08:57 INFO  Menu:36 - Initial menu activated
+2021-09-22 19:09:42 INFO  Menu:126 - Customer added
+2021-09-22 19:09:42 INFO  Menu:36 - Initial menu activated
+2021-09-22 19:09:51 INFO  Menu:67 - List returning..
+2021-09-22 19:09:51 INFO  Menu:36 - Initial menu activated
+2021-09-22 19:10:22 INFO  Menu:36 - Initial menu activated
+2021-09-22 19:10:34 INFO  Menu:149 - Card updated
+2021-09-22 19:10:34 INFO  Menu:36 - Initial menu activated
+2021-09-22 19:10:46 INFO  Menu:85 - List returned
+2021-09-22 19:10:46 INFO  Menu:36 - Initial menu activated
+2021-09-22 19:11:04 WARN  Menu:138 - Customer deleted from database
+2021-09-22 19:11:04 INFO  Menu:36 - Initial menu activated
+2021-09-22 19:11:16 INFO  Menu:67 - List returning..
+2021-09-22 19:11:16 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:13:53 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:16:36 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:17:21 INFO  Menu:126 - Customer added
+2021-09-23 09:17:21 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:17:38 INFO  Menu:67 - List returning..
+2021-09-23 09:17:38 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:18:19 INFO  Menu:85 - List returned
+2021-09-23 09:18:19 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:18:46 INFO  Menu:149 - Card updated
+2021-09-23 09:18:46 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:19:07 WARN  Menu:138 - Customer deleted from database
+2021-09-23 09:19:07 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:19:57 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:19:59 INFO  Menu:85 - List returned
+2021-09-23 09:19:59 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:22:02 INFO  Menu:67 - List returning..
+2021-09-23 09:22:02 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:23:52 WARN  Menu:138 - Customer deleted from database
+2021-09-23 09:23:52 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:26:11 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:27:52 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:29:22 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:29:33 WARN  Menu:138 - Customer deleted from database
+2021-09-23 09:29:33 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:29:37 INFO  Menu:67 - List returning..
+2021-09-23 09:29:37 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:29:58 WARN  Menu:138 - Customer deleted from database
+2021-09-23 09:29:58 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:30:16 WARN  Menu:138 - Customer deleted from database
+2021-09-23 09:30:16 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:30:25 INFO  Menu:67 - List returning..
+2021-09-23 09:30:25 INFO  Menu:36 - Initial menu activated
+2021-09-23 09:31:17 INFO  Menu:126 - Customer added
+2021-09-23 09:31:17 INFO  Menu:36 - Initial menu activated

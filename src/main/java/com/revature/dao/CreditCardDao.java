@@ -18,7 +18,7 @@ public class CreditCardDao implements CreditCardDaoInterface {
 		
 		try (Connection conn = ConnectionUtil.getConnection()){
 			ResultSet rs = null;
-			String sql = "select * from credit_cards";
+			String sql = "select * from credit_cards order by card_id";
 			Statement stmt = conn.createStatement();
 			rs = stmt.executeQuery(sql);
 			
@@ -60,7 +60,7 @@ public class CreditCardDao implements CreditCardDaoInterface {
 			
 			ps.executeUpdate();
 			
-			System.out.println("Credit card" + cN + "'s limit has been updated to " +"$"+ limit);
+			System.out.println("Credit card " + cN + "'s limit has been updated to " +"$"+ limit);
 			
 		}
 		catch(SQLException e) {
